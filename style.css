@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family:Gotham;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    height: 11vh;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+}
+.icon{
+    margin-left: 2vw;
+}
+#home{
+    background-color:rgb(50, 50, 50);
+    border: none;
+    width: 8vmin;
+    height: 8vmin;
+    border-radius:50% ;
+}
+#home img {
+    fill: rgb(50, 50, 50)
+}
+.search{
+    position: absolute;
+    left:29vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.search-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar input {
+    height: 8vh;
+    width: 30vw;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    border: none;
+}
+.search-con img{
+    height: 4vh;
+    background-color: rgb(50, 50, 50);
+    padding: .75rem;
+}
+#srhico{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+#fldico{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    color: white;
+}
+.sign button {
+    height: 8vh;
+    width: 8vw;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#signup{
+    background-color: black;
+    color: #828282;
+}
+#login{
+    background-color: white;
+    color: black;
+    margin-right: 1vw;
+}
+.left-main{
+    width: 24vw;
+    height: 100vh;
+}
+.navigate{
+    background-color: rgb(10,10,10);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.navigate ul li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    gap: 30px;
+    list-style: none;
+    margin-left: 15px;
+    padding: 15px;
+}
+.library{
+
+    color: white;
+    background-color: rgb(10,10,10);
+    border-radius: 10px;
+    margin: 10px;
+}
