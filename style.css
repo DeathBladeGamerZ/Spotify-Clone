@@ -81,7 +81,7 @@ body{
     margin-right: 1vw;
 }
 .left-main{
-    width: 23vw;
+    width: 22vw;
     height: 100vh;
 }
 .navigate{
@@ -96,7 +96,7 @@ body{
     justify-content: flex-start;
     background-color: transparent;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     gap: 30px;
     list-style: none;
     margin-left: 15px;
@@ -111,8 +111,11 @@ body{
     margin-top: 15px;
     display: flex;
     align-items: center;
-    font-size: 22px;
+    font-size: 18px;
     gap: 20px;
+}
+#lib{
+    color: rgb(179,179,179);
 }
 #plus{
     margin-left: 150px;
@@ -148,4 +151,35 @@ body{
     color: black;
     margin-right: 1vw;
     align-content: end;
+}
+.left-footer{
+    padding: 20px;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    
+}
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 20px;
+}
+.left-footer p {
+    font-size: 12px;
+    margin-right: 10px;
+}
+#cookies{
+    font-size:14px ;
+}
+.lang-btn{
+    border-radius: 20px;
+    height: 32px;
+    width:95px ;
+    padding:3px 15px 3px 32px;
 }
