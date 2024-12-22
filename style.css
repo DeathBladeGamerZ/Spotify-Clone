@@ -80,9 +80,15 @@ body{
     color: black;
     margin-right: 1vw;
 }
+.main {
+    display: flex;
+    justify-content: space-between;
+}
 .left-main{
-    width: 22vw;
-    height: 100vh;
+    width: 24vw;
+    height: 80vh;
+    overflow-y:scroll;
+    overflow-x: hidden;
 }
 .navigate{
     background-color: rgb(10,10,10);
@@ -105,7 +111,7 @@ body{
 .library{
     padding: 15px;
     color: rgb(100, 100, 100);
-    background-color: rgb(36, 36, 36);
+    background-color:rgb(10 10 10);
     border-radius: 10px;
     margin-left: 20px;
     margin-top: 15px;
@@ -115,7 +121,7 @@ body{
     gap: 20px;
 }
 #lib{
-    color: rgb(179,179,179);
+    background-color:rgb(10 10 10);
 }
 #plus{
     margin-left: 150px;
@@ -124,7 +130,7 @@ body{
 .playlist{
     padding: 20px;
     color: white;
-    background-color: rgb(36, 36, 36);
+    background-color:rgb(10 10 10);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -155,7 +161,7 @@ body{
 .left-footer{
     padding: 20px;
     color: white;
-    background-color: rgb(36, 36, 36);
+    background-color:rgb(10 10 10);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -182,4 +188,30 @@ body{
     height: 32px;
     width:95px ;
     padding:3px 15px 3px 32px;
+}
+.right-main{
+    color: white;
+    background-color:rgb(10 10 10);
+    width: 75vw;
+    height: 80vh;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+.popart{
+    margin-top: 1.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+.card-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    margin-top: 15px;
+}
+.artimg{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
 }
