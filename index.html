@@ -5,7 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="style.css" rel="stylesheet" />
-  <title>Spotify-Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <title>Spotify-Home</title>
 </head>
 
 <body>
@@ -50,12 +55,12 @@
       </div>
       <div class="left-footer">
         <div class="footer-links">
-        <p> legal</p>
-        <p> Saftey&PrivacyCenter</p>
-        <p> PrivacyPolices</p>
-        <p> Cookies</p>
-        <p> AboutAds</p>
-        <p> Accessbility</p>
+          <p> legal</p>
+          <p> Saftey&PrivacyCenter</p>
+          <p> PrivacyPolices</p>
+          <p> Cookies</p>
+          <p> AboutAds</p>
+          <p> Accessbility</p>
         </div>
         <p id="cookies">Cookies</p>
         <button class="lang-btn">English</button>
@@ -63,39 +68,84 @@
 
     </div>
     <div class="right-main">
+     <div class="bar">
+     </div>
+  
       <div class="popart">
-        <h2><b>Popular Artists</b></h2>
+        <h3>Spotify Playlists</h3>
         <div class="card-con">
           <div class="card">
-            <img class="artimg" src="Assets\Art_Img\arjitsingh.jpg">
-            <p>Name</p>
-            <p>artist</p>
+            
+            <img class="artimg" src="Assets\Art_Img\Nature-Sounds.jpeg">
+            <div class="playbtn">
+              <img src="Assets\play-button.svg">
+            </div>
+            <h4 class="playname">Name</h4>
+            <p class="playdes">Des</p>
           </div>
           <div class="card">
-            <img class="artimg" src="Assets\Art_Img\arjitsingh.jpg">
-            <p>Name</p>
-            <p>artist</p>
+            <img class="artimg" src="Assets\Art_Img\Nature-Sounds.jpeg">
+            <div class="playbtn">
+              <img src="Assets\play-button.svg">
+            </div>
+            <h4 class="playname">Name</h4>
+            <p class="playdes">Des</p>
           </div>
           <div class="card">
-            <img class="artimg" src="Assets\Art_Img\arjitsingh.jpg">
-            <p>Name</p>
-            <p>artist</p>
+            <img class="artimg" src="Assets\Art_Img\Nature-Sounds.jpeg">
+            <div class="playbtn">
+              <img src="Assets\play-button.svg">
+            </div>
+            <h4 class="playname">Name</h4>
+            <p class="playdes">Des</p>
           </div>
           <div class="card">
-            <img class="artimg" src="Assets\Art_Img\arjitsingh.jpg">
-            <p>Name</p>
-            <p>artist</p>
+            <img class="artimg" src="Assets\Art_Img\Nature-Sounds.jpeg">
+            <div class="playbtn">
+              <img src="Assets\play-button.svg">
+            </div>
+            <h4 class="playname">Name</h4>
+            <p class="playdes">Des</p>
           </div>
           <div class="card">
-            <img class="artimg" src="Assets\Art_Img\arjitsingh.jpg">
-            <p>Name</p>
-            <p>artist</p>
+            <img class="artimg" src="Assets\Art_Img\Nature-Sounds.jpeg">
+            <div class="playbtn">
+              <img src="Assets\play-button.svg">
+            </div>
+            <h4 class="playname">Name</h4>
+            <p class="playdes">Des</p>
           </div>
-         
+          <div class="card">
+            <img class="artimg" src="Assets\Art_Img\Nature-Sounds.jpeg">
+            <div class="playbtn">
+              <img src="Assets\play-button.svg">
+            </div>
+            <h4 class="playname">Name</h4>
+            <p class="playdes">Des</p>
+          </div>
+        </div>
+        
+
         </div>
       </div>
     </div>
   </div>
+    <div class="player">
+      <div class="songinfo">
+        <img id="songimg" src="Assets\Art_Img\Nature-Sounds.jpeg">
+        <div class="text"><h3>Title</h3>
+        <p>Singers</p></div>
+        
+      </div>
+      <div class="controls">
+        <img id="prvsong" src="Assets\prev.svg">
+        <img id="play" src="Assets\play-btn.svg">
+        <img id="nexsong" src="Assets\next.svg">
+      </div>
+      <div class="side-controls">
+        <img src="Assets\volume.svg">
+      </div>
+    </div>
+<script src="script.js"></script>  
 </body>
-
 </html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+  <!-- Circular background -->
+  <circle cx="12" cy="12" r="12" fill="rgb(30, 215, 96)" />
+  <!-- Play button (smaller triangle) -->
+  <path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z" 
+        fill="#000000" 
+        transform="scale(0.5) translate(12, 12)" />
+</svg>
