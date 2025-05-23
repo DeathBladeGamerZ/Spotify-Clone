@@ -81,5 +81,18 @@ async function main() {
     ttime.innerHTML= convertSeconds(currentSong.duration);
     document.querySelector(".circle").style.left=(currentSong.currentTime/currentSong.duration*100)+"%";
   })
+
+  document.querySelector(".seekbar").addEventListener("click",e=>{
+    percent = (e.offsetX/e.target.getBoundingClientRect().width)*100 ;
+    document.querySelector(".circle").style.left = percent+"%" ;
+    currentSong.currentTime=(percent * currentSong.duration)/100;
+  })
+
+  document.querySelector(".icon").addEventListener("click",()=>{
+    document.querySelector(".left-main").style.left="0";
+  })
+  document.querySelector(".cancel").addEventListener("click",()=>{
+    document.querySelector(".left-main").style.left="-100%";
+  })
 }
 main();
