@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <link
+      rel="icon"
+      href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png"
+    />
     <link href="style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,7 +37,7 @@
     <div class="main">
       <div class="left-main">
         <div class="navigate">
-          <img class="cancel" src="Assets\cancel.svg">
+          <img class="cancel" src="Assets\cancel.svg" />
           <ul>
             <li><img src="Assets/home-icon.svg" />Home</li>
             <li><img src="Assets/Search Icon.svg" />Search</li>
@@ -79,7 +82,7 @@
         <div class="popart">
           <h3>Spotify Playlists</h3>
           <div class="card-con">
-            <div class="card">
+            <div class="card" data-folder="Cs">
               <img class="artimg" src="Assets\Art_Img\Nature-Sounds.jpeg" />
               <div class="playbtn">
                 <img src="Assets\play-button.svg" />
@@ -87,7 +90,7 @@
               <h4 class="playname">Name</h4>
               <p class="playdes">Des</p>
             </div>
-            <div class="card">
+            <div class="card" data-folder="English">
               <img class="artimg" src="Assets\Art_Img\Nature-Sounds.jpeg" />
               <div class="playbtn">
                 <img src="Assets\play-button.svg" />
@@ -95,38 +98,9 @@
               <h4 class="playname">Name</h4>
               <p class="playdes">Des</p>
             </div>
-            <div class="card">
-              <img class="artimg" src="Assets\Art_Img\Nature-Sounds.jpeg" />
-              <div class="playbtn">
-                <img src="Assets\play-button.svg" />
-              </div>
-              <h4 class="playname">Name</h4>
-              <p class="playdes">Des</p>
-            </div>
-            <div class="card">
-              <img class="artimg" src="Assets\Art_Img\Nature-Sounds.jpeg" />
-              <div class="playbtn">
-                <img src="Assets\play-button.svg" />
-              </div>
-              <h4 class="playname">Name</h4>
-              <p class="playdes">Des</p>
-            </div>
-            <div class="card">
-              <img class="artimg" src="Assets\Art_Img\Nature-Sounds.jpeg" />
-              <div class="playbtn">
-                <img src="Assets\play-button.svg" />
-              </div>
-              <h4 class="playname">Name</h4>
-              <p class="playdes">Des</p>
-            </div>
-            <div class="card">
-              <img class="artimg" src="Assets\Art_Img\Nature-Sounds.jpeg" />
-              <div class="playbtn">
-                <img src="Assets\play-button.svg" />
-              </div>
-              <h4 class="playname">Name</h4>
-              <p class="playdes">Des</p>
-            </div>
+            
+            
+            
           </div>
         </div>
       </div>
@@ -135,27 +109,26 @@
       <div class="songinfo">
         <img id="songimg" src="Assets\Art_Img\Nature-Sounds.jpeg" />
         <div class="text">
-          <h4  id="sname">Title</h4>
-          <p id="aname">Singers</p>
+          <h5 id="sname">Title</h5>
         </div>
       </div>
       <div class="controls">
         <div class="tc">
-        <p id="currtime">00:00</p>
-        <div class="controlbtn">
-          <img id="prvsong" src="Assets\prev.svg" />
-        <img id="play" src="Assets\pausebtn.svg" />
-        <img id="nexsong" src="Assets\next.svg" />
+          <p id="currtime">00:00</p>
+          <div class="controlbtn">
+            <img id="prvsong" src="Assets\prev.svg" />
+            <img id="play" src="Assets\pausebtn.svg" />
+            <img id="nexsong" src="Assets\next.svg" />
+          </div>
+          <p id="ttime">00:00</p>
         </div>
-        <p id="ttime">00:00</p>
-      </div>
         <div class="seekbar">
           <div class="circle"></div>
         </div>
       </div>
       <div class="side-controls">
         <img src="Assets\volume.svg" />
-        <div class="volumectrl"></div>
+        <input class="volumeSlider" type="range" min="0" max="100" step="1">
       </div>
     </div>
     <script src="script.js"></script>
